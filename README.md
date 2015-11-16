@@ -28,3 +28,22 @@ Erweitern Sie das "Black Jack"-Programm wie folgt:
     * des 1,5-fachen Einsatzes bei einem Black Jack.
 
 * Der Einsatz soll bei jedem Spielschritt ausgegeben werden. 
+
+## Teil 8
+
+* Der Geber erhält die erste Karte zusammen mit den ersten beiden Karten des Spielers. Bei jedem Spielzug sollen nun immer beide Kartenhände ausgegeben werden.
+* Ergänzen Sie die "double-Regel", d.h. bei seinem ersten Spielzug (solange der Spieler noch 2 Karten hat), hat der Spieler zusätzlich die Möglichkeit, seinen Einsatz zu verdoppeln.
+
+## Teil 9
+
+* Ergänzen Sie die "insurance-Regel": Wurden die Karten ausgeteilt und hat der Geber ein Ass, so hat der Spieler bei seinem ersten Spielzug die Möglichkeit, eine "Versicherung" abzuschließen.
+* Dies bedeutet, dass er einen zusätzlichen Betrag darauf wetten kann, dass der Geber einen Black Jack erhalten wird. Dieser insurance-Einsatz wird unabhängig vom restlichen Betrag verwaltet.
+* Hat der Geber zum Ende des Spieles einen Black Jack auf der Hand, erhält der Spieler seinen insurance-Einsatz zurück plus einen Gewinn in Höhe des doppelten insurance-Einsatzes.
+
+## Teil 10
+
+* Das Spiel soll nun nicht nach einer Runde zu Ende sein.
+* Zu Beginn des Spiels erhält der Spieler ein Budget von 5000 Euro, aus welchem die Einsätze bestritten werden müssen und in welches die Gewinne einfließen.
+* Sinkt das Budget unter den Minimum-Einsatz, ist das Spiel verloren.
+* Solange das nicht der Fall ist, fragt das Programm nach jedem Spiel, ob eine neue Runde gespielt werden soll. Dazu werden die Karten neu gemischt und eine neue Runde beginnt.
+* Das Budget soll bei jedem Spielschritt ebenfalls ausgegeben werden.
