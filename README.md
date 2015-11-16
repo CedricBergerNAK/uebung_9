@@ -15,3 +15,16 @@ Erweitern Sie das "Black Jack"-Programm wie folgt:
 * Erweitern Sie die Klasse ```Kartenhand``` um eine Methode ```istBlackJack```, welche ```true``` zurückliefert, wenn die Kartenhand aus nur 2 Karten besteht und 21 Punkte ergibt.
 * Ergänzen Sie die Methode ```getTextdarstellung``` der Kartenhand insoweit, dass bei einem Black Jack am Ende nicht die Punkte angezeigt werden, sondern der Text "Black Jack".
 * Berücksichtigen Sie zum Ende eines Spieles, dass ein Black Jack gegenüber einem Nicht-Black-Jack gewinnt. Verwenden Sie die unveränderten Methoden ```verlorenGeberHatMehr``` und ```gewonnenGeberHatWeniger``` der Klasse ```Benutzerinterface```.
+ 
+## Teil 7
+
+* Vor dem Spiel am Black-Jack-Tisch soll ein Geldeinsatz getätigt werden können. Gültige Einsätze sind 10, 20, 50, 100, 250, 500 und 1000 Euro.
+* Das Spiel soll am Ende ausgeben, wieviel der Spieler erhält:
+  * Verliert er, erhält er nichts.
+  * Bei Unentschieden erhält er den Einsatz zurück.
+  * Gewinnt der Spieler, erhält er seinen Einsatz zurück plus einen Gewinn in Höhe:
+    * des Einsatzes bei einem "normalen" Sieg
+    * des 1,5-fachen Einsatzes bei einem Siebener-Drilling sowie
+    * des 1,5-fachen Einsatzes bei einem Black Jack.
+
+* Der Einsatz soll bei jedem Spielschritt ausgegeben werden. 
